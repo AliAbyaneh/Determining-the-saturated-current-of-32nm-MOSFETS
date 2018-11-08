@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "A-2008.03 32-BIT"
+* "format" "HSP"
+* "rundate" "16:02:57 03/20/2018 "
+* "netlist" "c:\users\abyan\documents\ut-962\vlsi\ca\ca1\part1_1.sp "
+* "runtitle" "*** ali abyaneh dec ca1- part1********"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ d =   0.            
++ g =   0.            
++ vdd =   0.            
+***   END: Saved Operating Point ***                     

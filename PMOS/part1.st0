@@ -1,0 +1,165 @@
+***** HSPICE -- A-2008.03 32-BIT (Feb 26 2008) winnt ******
+ Input File: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   abyan                HOSTNAME: DESKTOP-N47OJ0S
+ lic: HOSTID: "985fd34ec0c4 00ffcd49aaaa 985fd34ec0c3 9a5fd34ec1c2" PID:      12
+ lic: Using FLEXlm license file:
+ lic: C:\Flexlm\hspice_2007-09.lic
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "985fd34ec0c4 00ffcd49aaaa 985fd34ec0c3 9a5f
+ lic:
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2008.03\hspice.ini
+ init: begin read circuit files,  cpu clock=  6.20E-02
+ init: end read circuit files,  cpu clock=  6.20E-02 memory=    145 kb
+ init: begin check errors,  cpu clock=  6.20E-02
+ init: end check errors,  cpu clock=  6.20E-02 memory=    145 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  6.20E-02
+       establish matrix -- done,  cpu clock=  7.80E-02 memory=    148 kb
+       re-order matrix -- done,  cpu clock=  7.80E-02 memory=    149 kb
+ init: end setup matrix,  cpu clock=  7.80E-02 memory=    159 kb
+ sweep: voltage         voltage1         begin, #sweeps =  31
+ voltage: vgs             =   -1.00E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc1    begin, #sweeps=  31 cpu clock=  7.80E-02
+ sweep: dc dc1    end,  cpu clock=  7.80E-02 memory=    159 kb
+ voltage: vgs             =   -9.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc2    begin, #sweeps=  31 cpu clock=  1.25E-01
+ sweep: dc dc2    end,  cpu clock=  1.25E-01 memory=    159 kb
+ voltage: vgs             =   -8.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc3    begin, #sweeps=  31 cpu clock=  1.56E-01
+ sweep: dc dc3    end,  cpu clock=  1.56E-01 memory=    159 kb
+ voltage: vgs             =   -7.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc4    begin, #sweeps=  31 cpu clock=  1.72E-01
+ sweep: dc dc4    end,  cpu clock=  1.87E-01 memory=    159 kb
+ voltage: vgs             =   -6.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc5    begin, #sweeps=  31 cpu clock=  2.03E-01
+ sweep: dc dc5    end,  cpu clock=  2.18E-01 memory=    159 kb
+ voltage: vgs             =   -5.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc6    begin, #sweeps=  31 cpu clock=  2.34E-01
+ sweep: dc dc6    end,  cpu clock=  2.34E-01 memory=    159 kb
+ voltage: vgs             =   -4.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc7    begin, #sweeps=  31 cpu clock=  2.65E-01
+ sweep: dc dc7    end,  cpu clock=  2.81E-01 memory=    159 kb
+ voltage: vgs             =   -3.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc8    begin, #sweeps=  31 cpu clock=  2.97E-01
+ sweep: dc dc8    end,  cpu clock=  2.97E-01 memory=    159 kb
+ voltage: vgs             =   -2.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc9    begin, #sweeps=  31 cpu clock=  3.28E-01
+ sweep: dc dc9    end,  cpu clock=  3.43E-01 memory=    159 kb
+ voltage: vgs             =   -1.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc10   begin, #sweeps=  31 cpu clock=  3.59E-01
+ sweep: dc dc10   end,  cpu clock=  3.59E-01 memory=    159 kb
+ voltage: vgs             =    0.00E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc11   begin, #sweeps=  31 cpu clock=  3.75E-01
+ sweep: dc dc11   end,  cpu clock=  3.90E-01 memory=    159 kb
+ voltage: vgs             =    1.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc12   begin, #sweeps=  31 cpu clock=  4.10E-01
+ sweep: dc dc12   end,  cpu clock=  4.10E-01 memory=    159 kb
+ voltage: vgs             =    2.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc13   begin, #sweeps=  31 cpu clock=  4.26E-01
+ sweep: dc dc13   end,  cpu clock=  4.42E-01 memory=    159 kb
+ voltage: vgs             =    3.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc14   begin, #sweeps=  31 cpu clock=  4.57E-01
+ sweep: dc dc14   end,  cpu clock=  4.57E-01 memory=    159 kb
+ voltage: vgs             =    4.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc15   begin, #sweeps=  31 cpu clock=  5.04E-01
+ sweep: dc dc15   end,  cpu clock=  5.20E-01 memory=    159 kb
+ voltage: vgs             =    5.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc16   begin, #sweeps=  31 cpu clock=  5.35E-01
+ sweep: dc dc16   end,  cpu clock=  5.35E-01 memory=    159 kb
+ voltage: vgs             =    6.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc17   begin, #sweeps=  31 cpu clock=  5.51E-01
+ sweep: dc dc17   end,  cpu clock=  5.67E-01 memory=    159 kb
+ voltage: vgs             =    7.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc18   begin, #sweeps=  31 cpu clock=  5.82E-01
+ sweep: dc dc18   end,  cpu clock=  5.82E-01 memory=    159 kb
+ voltage: vgs             =    8.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc19   begin, #sweeps=  31 cpu clock=  6.14E-01
+ sweep: dc dc19   end,  cpu clock=  6.14E-01 memory=    159 kb
+ voltage: vgs             =    9.00E-01
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc20   begin, #sweeps=  31 cpu clock=  6.29E-01
+ sweep: dc dc20   end,  cpu clock=  6.45E-01 memory=    159 kb
+ voltage: vgs             =    1.00E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc21   begin, #sweeps=  31 cpu clock=  6.60E-01
+ sweep: dc dc21   end,  cpu clock=  6.60E-01 memory=    159 kb
+ voltage: vgs             =    1.10E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc22   begin, #sweeps=  31 cpu clock=  6.92E-01
+ sweep: dc dc22   end,  cpu clock=  6.92E-01 memory=    159 kb
+ voltage: vgs             =    1.20E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc23   begin, #sweeps=  31 cpu clock=  7.07E-01
+ sweep: dc dc23   end,  cpu clock=  7.23E-01 memory=    159 kb
+ voltage: vgs             =    1.30E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc24   begin, #sweeps=  31 cpu clock=  7.39E-01
+ sweep: dc dc24   end,  cpu clock=  7.54E-01 memory=    159 kb
+ voltage: vgs             =    1.40E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc25   begin, #sweeps=  31 cpu clock=  7.70E-01
+ sweep: dc dc25   end,  cpu clock=  7.70E-01 memory=    159 kb
+ voltage: vgs             =    1.50E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc26   begin, #sweeps=  31 cpu clock=  8.01E-01
+ sweep: dc dc26   end,  cpu clock=  8.01E-01 memory=    159 kb
+ voltage: vgs             =    1.60E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc27   begin, #sweeps=  31 cpu clock=  8.17E-01
+ sweep: dc dc27   end,  cpu clock=  8.32E-01 memory=    159 kb
+ voltage: vgs             =    1.70E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc28   begin, #sweeps=  31 cpu clock=  8.48E-01
+ sweep: dc dc28   end,  cpu clock=  8.48E-01 memory=    159 kb
+ voltage: vgs             =    1.80E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc29   begin, #sweeps=  31 cpu clock=  8.64E-01
+ sweep: dc dc29   end,  cpu clock=  8.79E-01 memory=    159 kb
+ voltage: vgs             =    1.90E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc30   begin, #sweeps=  31 cpu clock=  8.95E-01
+ sweep: dc dc30   end,  cpu clock=  9.10E-01 memory=    159 kb
+ voltage: vgs             =    2.00E+00
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.sw0
+ sweep: dc dc31   begin, #sweeps=  31 cpu clock=  9.26E-01
+ sweep: dc dc31   end,  cpu clock=  9.26E-01 memory=    159 kb
+ sweep: voltage         voltage         1 end
+ dcop: begin dcop,  cpu clock=  9.42E-01
+ dcop: end dcop,  cpu clock=  9.57E-01 memory=    159 kb  tot_iter=       4
+ output: c:\users\abyan\documents\ut-962\vlsi\ca\ca1\pmos\part1.tr0
+ sweep: tran tran0    begin, stop_t=  2.00E-06 #sweeps=**** cpu clock=  9.73E-01
+ tran: time= 2.2496E-07 tot_iter=      18 conv_iter=       9 cpu clock= 9.73E-01
+ tran: time= 4.2496E-07 tot_iter=      22 conv_iter=      11 cpu clock= 9.73E-01
+ tran: time= 6.2496E-07 tot_iter=      26 conv_iter=      13 cpu clock= 9.89E-01
+ tran: time= 8.2496E-07 tot_iter=      30 conv_iter=      15 cpu clock= 9.89E-01
+ tran: time= 1.0250E-06 tot_iter=      34 conv_iter=      17 cpu clock= 1.00E+00
+ tran: time= 1.2250E-06 tot_iter=      38 conv_iter=      19 cpu clock= 1.00E+00
+ tran: time= 1.4250E-06 tot_iter=      42 conv_iter=      21 cpu clock= 1.00E+00
+ tran: time= 1.6250E-06 tot_iter=      46 conv_iter=      23 cpu clock= 1.02E+00
+ tran: time= 1.8250E-06 tot_iter=      50 conv_iter=      25 cpu clock= 1.02E+00
+ tran: time= 2.0000E-06 tot_iter=      54 conv_iter=      27 cpu clock= 1.02E+00
+ sweep: tran tran0    end,  cpu clock=  1.03E+00 memory=    159 kb
+>info:         ***** hspice job concluded
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2008.03\hspice.ini
+ lic: Release hspice token(s)
